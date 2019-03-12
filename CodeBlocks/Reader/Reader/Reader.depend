@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1551824216 source:/home/pbundac/Desktop/CodeBlocks/Reader/Reader/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/shm.h>
+	<sys/mman.h>
+

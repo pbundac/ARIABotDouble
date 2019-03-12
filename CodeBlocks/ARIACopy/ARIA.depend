@@ -1,0 +1,1066 @@
+# depslib dependency file v1.0
+1550864487 source:/home/pbundac/Desktop/CodeBlocks/ARIA/main.cpp
+	"Aria.h"
+	<pthread.h>
+	<stdlib.h>
+	<unistd.h>
+
+1516895104 /usr/local/Aria/include/Aria.h
+	"ariaOSDef.h"
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArSimpleConnector.h"
+	"ArLogFileConnection.h"
+	"ArLog.h"
+	"ArRobotPacket.h"
+	"ArRobotPacketSender.h"
+	"ArRobotPacketReceiver.h"
+	"ArRobotConfigPacketReader.h"
+	"ArRobotTypes.h"
+	"ariaUtil.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ArFileParser.h"
+	"ArConfig.h"
+	"ArConfigArg.h"
+	"ArConfigGroup.h"
+	"ArRobot.h"
+	"ArCommands.h"
+	"ArJoyHandler.h"
+	"ArSyncTask.h"
+	"ArTaskState.h"
+	"ariaInternal.h"
+	"ArSonarDevice.h"
+	"ArPriorityResolver.h"
+	"ArAction.h"
+	"ArActionGroup.h"
+	"ArActionGroups.h"
+	"ArActionDeceleratingLimiter.h"
+	"ArActionLimiterForwards.h"
+	"ArActionLimiterBackwards.h"
+	"ArActionLimiterTableSensor.h"
+	"ArActionBumpers.h"
+	"ArActionIRs.h"
+	"ArActionStallRecover.h"
+	"ArActionAvoidFront.h"
+	"ArActionAvoidSide.h"
+	"ArActionConstantVelocity.h"
+	"ArActionInput.h"
+	"ArActionRobotJoydrive.h"
+	"ArActionJoydrive.h"
+	"ArActionKeydrive.h"
+	"ArActionTriangleDriveTo.h"
+	"ArActionTurn.h"
+	"ArActionRatioInput.h"
+	"ArActionStop.h"
+	"ArActionGoto.h"
+	"ArModule.h"
+	"ArModuleLoader.h"
+	"ArRecurrentTask.h"
+	"ArInterpolation.h"
+	"ArGripper.h"
+	"ArSonyPTZ.h"
+	"ArRVisionPTZ.h"
+	"ArAMPTU.h"
+	"ArP2Arm.h"
+	"ArACTS.h"
+	"ArSick.h"
+	"ArLaserLogger.h"
+	"ArIrrfDevice.h"
+	"ArKeyHandler.h"
+	"ArDPPTU.h"
+	"ArVCC4.h"
+	"ArMode.h"
+	"ArModes.h"
+	"ArNetServer.h"
+	"ArSignalHandler.h"
+	"ArAnalogGyro.h"
+	"ArMapInterface.h"
+	"ArMapObject.h"
+	"ArMap.h"
+	"ArLineFinder.h"
+	"ArBumpers.h"
+	"ArIRs.h"
+	"ArDrawingData.h"
+	"ArForbiddenRangeDevice.h"
+	"ArTCM2.h"
+	"ArVersalogicIO.h"
+	"ArMTXIO.h"
+	"ArActionGotoStraight.h"
+	"ArDataLogger.h"
+	"ArRobotJoyHandler.h"
+	"ArRatioInputKeydrive.h"
+	"ArRatioInputJoydrive.h"
+	"ArRatioInputRobotJoydrive.h"
+	"ArActionMovementParameters.h"
+	"ArSoundPlayer.h"
+	"ArSoundsQueue.h"
+	"ArCameraCollection.h"
+	"ArCameraCommands.h"
+	"ArStringInfoGroup.h"
+	"ArSonarAutoDisabler.h"
+	"ArActionDriveDistance.h"
+	"ArLaserReflectorDevice.h"
+	"ArRobotConfig.h"
+	"ArTCMCompassRobot.h"
+	"ArTCMCompassDirect.h"
+	"ArLaserFilter.h"
+	"ArUrg.h"
+	"ArSpeech.h"
+	"ArGPS.h"
+	"ArTrimbleGPS.h"
+	"ArNovatelGPS.h"
+	"ArGPSCoords.h"
+	"ArLaser.h"
+	"ArRobotConnector.h"
+	"ArLaserConnector.h"
+	"ArSonarConnector.h"
+	"ArBatteryConnector.h"
+	"ArLCDConnector.h"
+	"ArSonarMTX.h"
+	"ArBatteryMTX.h"
+	"ArLCDMTX.h"
+	"ArSimulatedLaser.h"
+	"ArExitErrorSource.h"
+	"ArActionLimiterRot.h"
+	"ArRobotBatteryPacketReader.h"
+	"ArLMS1XX.h"
+	"ArUrg_2_0.h"
+	"ArActionMovementParametersDebugging.h"
+	"ArZippable.h"
+	"ArS3Series.h"
+	"ArSZSeries.h"
+	"ArRobotPacketReaderThread.h"
+	"ArHasFileName.h"
+
+1516895104 /usr/local/Aria/include/ariaOSDef.h
+	"ariaTypedefs.h"
+
+1516895104 /usr/local/Aria/include/ariaTypedefs.h
+	<time.h>
+	<string>
+	<map>
+	<list>
+	<winsock2.h>
+	<windows.h>
+
+1516895105 /usr/local/Aria/include/ArSerialConnection.h
+	<string>
+	"ariaTypedefs.h"
+	"ArDeviceConnection.h"
+
+1516895104 /usr/local/Aria/include/ArDeviceConnection.h
+	<string>
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArBasePacket.h"
+
+1516895104 /usr/local/Aria/include/ariaUtil.h
+	<string>
+	<list>
+	<map>
+	<math.h>
+	<stdarg.h>
+	<stdlib.h>
+	<limits.h>
+	<string.h>
+	<float.h>
+	<vector>
+	<sys/timeb.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<unistd.h>
+	<strings.h>
+	<time.h>
+	"ariaTypedefs.h"
+	"ArLog.h"
+	"ArFunctor.h"
+	"ArArgumentParser.h"
+	"ariaOSDef.h"
+	"ArASyncTask.h"
+
+1516895104 /usr/local/Aria/include/ArLog.h
+	<stdio.h>
+	<string>
+	"ariaTypedefs.h"
+	"ArMutex.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArMutex.h
+	<pthread.h>
+	<string>
+	"ariaTypedefs.h"
+
+1516895104 /usr/local/Aria/include/ArFunctor.h
+	"ariaTypedefs.h"
+	"ariaOSDef.h"
+	<stdarg.h>
+	<stdio.h>
+
+1516895104 /usr/local/Aria/include/ArArgumentParser.h
+	"ariaTypedefs.h"
+	"ArArgumentBuilder.h"
+
+1516895104 /usr/local/Aria/include/ArArgumentBuilder.h
+	"ariaTypedefs.h"
+
+1516895104 /usr/local/Aria/include/ArASyncTask.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ArThread.h"
+
+1516895105 /usr/local/Aria/include/ArThread.h
+	<map>
+	<pthread.h>
+	"ariaTypedefs.h"
+	"ArMutex.h"
+	"ArFunctor.h"
+	"ArLog.h"
+	<vector>
+	<map>
+
+1516895104 /usr/local/Aria/include/ArBasePacket.h
+	<string>
+	<vector>
+	<list>
+	"ariaTypedefs.h"
+
+1516895105 /usr/local/Aria/include/ArTcpConnection.h
+	"ArDeviceConnection.h"
+	<string>
+	"ariaTypedefs.h"
+	"ArSocket.h"
+
+1516895105 /usr/local/Aria/include/ArSocket.h
+	<sys/time.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/stat.h>
+	<sys/param.h>
+	<fcntl.h>
+	<netinet/in.h>
+	<stdio.h>
+	<errno.h>
+	<stdarg.h>
+	<string>
+	"ariaTypedefs.h"
+	"ArMutex.h"
+	"ariaUtil.h"
+
+1516895105 /usr/local/Aria/include/ArSimpleConnector.h
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ariaUtil.h"
+	"ArRobotConnector.h"
+	"ArLaserConnector.h"
+
+1516895105 /usr/local/Aria/include/ArRobotConnector.h
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArLaserConnector.h
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ariaUtil.h"
+	"ArRobotConnector.h"
+
+1516895104 /usr/local/Aria/include/ArLogFileConnection.h
+	"ArDeviceConnection.h"
+	<string>
+	<stdio.h>
+	"ariaTypedefs.h"
+
+1516895105 /usr/local/Aria/include/ArRobotPacket.h
+	"ariaTypedefs.h"
+	"ArBasePacket.h"
+	"ariaUtil.h"
+
+1516895105 /usr/local/Aria/include/ArRobotPacketSender.h
+	"ariaTypedefs.h"
+	"ArRobotPacket.h"
+
+1516895105 /usr/local/Aria/include/ArRobotPacketReceiver.h
+	"ariaTypedefs.h"
+	"ArRobotPacket.h"
+
+1516895105 /usr/local/Aria/include/ArRobotConfigPacketReader.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+	"ArRobotPacket.h"
+
+1516895105 /usr/local/Aria/include/ArRobotTypes.h
+	"ariaUtil.h"
+	"ArRobotParams.h"
+
+1516895105 /usr/local/Aria/include/ArRobotParams.h
+	"ariaTypedefs.h"
+	"ArConfig.h"
+	<vector>
+
+1516895104 /usr/local/Aria/include/ArConfig.h
+	"ArConfigArg.h"
+	"ArFileParser.h"
+	"ArHasFileName.h"
+	<set>
+
+1516895104 /usr/local/Aria/include/ArConfigArg.h
+	<map>
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArFileParser.h
+	"ariaTypedefs.h"
+	"ArArgumentParser.h"
+	"ArFunctor.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArHasFileName.h
+	"ariaTypedefs.h"
+
+1516895104 /usr/local/Aria/include/ArConfigGroup.h
+	"ArConfig.h"
+
+1516895105 /usr/local/Aria/include/ArRobot.h
+	"ariaTypedefs.h"
+	"ArRobotPacketSender.h"
+	"ArRobotPacketReceiver.h"
+	"ArFunctor.h"
+	"ArSyncTask.h"
+	"ArSensorReading.h"
+	"ArMutex.h"
+	"ArCondition.h"
+	"ArSyncLoop.h"
+	"ArRobotPacketReaderThread.h"
+	"ArRobotParams.h"
+	"ArActionDesired.h"
+	"ArResolver.h"
+	"ArTransform.h"
+	"ArInterpolation.h"
+	"ArKeyHandler.h"
+	<list>
+
+1516895105 /usr/local/Aria/include/ArSyncTask.h
+	<string>
+	<map>
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ArTaskState.h"
+
+1516895105 /usr/local/Aria/include/ArTaskState.h
+
+1516895105 /usr/local/Aria/include/ArSensorReading.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArTransform.h"
+
+1516895105 /usr/local/Aria/include/ArTransform.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArCondition.h
+	<pthread.h>
+	"ArMutex.h"
+	"ariaTypedefs.h"
+
+1516895105 /usr/local/Aria/include/ArSyncLoop.h
+	"ariaTypedefs.h"
+	"ArASyncTask.h"
+	"ArSyncTask.h"
+
+1516895105 /usr/local/Aria/include/ArRobotPacketReaderThread.h
+	"ariaTypedefs.h"
+	"ArASyncTask.h"
+
+1516895104 /usr/local/Aria/include/ArActionDesired.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895105 /usr/local/Aria/include/ArResolver.h
+	"ariaTypedefs.h"
+	"ArActionDesired.h"
+	<string>
+
+1516895104 /usr/local/Aria/include/ArInterpolation.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArKeyHandler.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	<map>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+
+1516895104 /usr/local/Aria/include/ArCommands.h
+
+1516895104 /usr/local/Aria/include/ArJoyHandler.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	<mmsystem.h>
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+	<linux/joystick.h>
+
+1516895104 /usr/local/Aria/include/ariaInternal.h
+	"ArMutex.h"
+	"ArFunctor.h"
+	"ArConfig.h"
+	"ArStringInfoGroup.h"
+
+1516895105 /usr/local/Aria/include/ArStringInfoGroup.h
+	"ariaUtil.h"
+	"ArMutex.h"
+	<string>
+	<set>
+	<list>
+
+1516895105 /usr/local/Aria/include/ArSonarDevice.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArRangeDevice.h
+	"ariaTypedefs.h"
+	"ArRangeBuffer.h"
+	"ArSensorReading.h"
+	"ArDrawingData.h"
+	"ArMutex.h"
+	<set>
+
+1516895104 /usr/local/Aria/include/ArRangeBuffer.h
+	"ariaUtil.h"
+	"ariaTypedefs.h"
+	"ArTransform.h"
+	<list>
+	<vector>
+
+1516895104 /usr/local/Aria/include/ArDrawingData.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArPriorityResolver.h
+	"ArResolver.h"
+
+1516895104 /usr/local/Aria/include/ArAction.h
+	"ariaTypedefs.h"
+	"ArArg.h"
+	"ArActionDesired.h"
+	<map>
+	<string>
+
+1516895104 /usr/local/Aria/include/ArArg.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArActionGroup.h
+	"ariaTypedefs.h"
+	<list>
+
+1516895104 /usr/local/Aria/include/ArActionGroups.h
+	"ariaTypedefs.h"
+	"ArActionGroup.h"
+	"ArActionColorFollow.h"
+	"ArACTS.h"
+	"ArPTZ.h"
+
+1516895104 /usr/local/Aria/include/ArActionColorFollow.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+	"ArAction.h"
+	"ArACTS.h"
+	"ArPTZ.h"
+
+1516895104 /usr/local/Aria/include/ArACTS.h
+	"ariaTypedefs.h"
+	"ArTcpConnection.h"
+	"ariaUtil.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArPTZ.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ArCommands.h"
+	"ArPTZConnector.h"
+
+1516895104 /usr/local/Aria/include/ArPTZConnector.h
+	<string>
+	<vector>
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+	"ArRobotParams.h"
+	"ariaInternal.h"
+
+1516895104 /usr/local/Aria/include/ArActionDeceleratingLimiter.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionLimiterForwards.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionLimiterBackwards.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionLimiterTableSensor.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionBumpers.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionIRs.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArRobotParams.h"
+	<vector>
+
+1516895104 /usr/local/Aria/include/ArActionStallRecover.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionAvoidFront.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionAvoidSide.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionConstantVelocity.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionInput.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionRobotJoydrive.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionJoydrive.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArJoyHandler.h"
+
+1516895104 /usr/local/Aria/include/ArActionKeydrive.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArActionTriangleDriveTo.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArLineFinder.h"
+
+1516895104 /usr/local/Aria/include/ArLineFinder.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ariaUtil.h"
+	<vector>
+
+1516895104 /usr/local/Aria/include/ArActionTurn.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionRatioInput.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionStop.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArActionGoto.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArModule.h
+	"ariaTypedefs.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArModuleLoader.h
+	<map>
+	<string>
+	"ariaTypedefs.h"
+	"ArRobot.h"
+
+1516895105 /usr/local/Aria/include/ArRecurrentTask.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ArThread.h"
+	"ArASyncTask.h"
+
+1516895104 /usr/local/Aria/include/ArGripper.h
+	"ariaTypedefs.h"
+	"ArRobot.h"
+
+1516895105 /usr/local/Aria/include/ArSonyPTZ.h
+	"ariaTypedefs.h"
+	"ArBasePacket.h"
+	"ArPTZ.h"
+
+1516895105 /usr/local/Aria/include/ArRVisionPTZ.h
+	"ariaTypedefs.h"
+	"ArBasePacket.h"
+	"ArPTZ.h"
+	"ArSerialConnection.h"
+
+1516895104 /usr/local/Aria/include/ArAMPTU.h
+	"ariaTypedefs.h"
+	"ArBasePacket.h"
+	"ArPTZ.h"
+
+1516895104 /usr/local/Aria/include/ArP2Arm.h
+	"ArRobot.h"
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ariaOSDef.h"
+
+1516895105 /usr/local/Aria/include/ArSick.h
+	"ariaTypedefs.h"
+	"ArRobotPacket.h"
+	"ArLaser.h"
+	"ArFunctor.h"
+	"ArCondition.h"
+	"ArLMS2xx.h"
+
+1516895104 /usr/local/Aria/include/ArLaser.h
+	"ariaTypedefs.h"
+	"ArRangeDeviceThreaded.h"
+
+1516895104 /usr/local/Aria/include/ArRangeDeviceThreaded.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctorASyncTask.h"
+
+1516895104 /usr/local/Aria/include/ArFunctorASyncTask.h
+	"ariaTypedefs.h"
+	"ArASyncTask.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArLMS2xx.h
+	"ariaTypedefs.h"
+	"ArLMS2xxPacket.h"
+	"ArLMS2xxPacketReceiver.h"
+	"ArRobotPacket.h"
+	"ArLaser.h"
+	"ArFunctor.h"
+	"ArCondition.h"
+
+1516895104 /usr/local/Aria/include/ArLMS2xxPacket.h
+	"ariaTypedefs.h"
+	"ArBasePacket.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArLMS2xxPacketReceiver.h
+	"ariaTypedefs.h"
+	"ArDeviceConnection.h"
+	"ArLMS2xxPacket.h"
+
+1516895104 /usr/local/Aria/include/ArLaserLogger.h
+	<stdio.h>
+	"ariaUtil.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArIrrfDevice.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArDPPTU.h
+	"ariaTypedefs.h"
+	"ArRobot.h"
+	"ArPTZ.h"
+	<vector>
+
+1516895105 /usr/local/Aria/include/ArVCC4.h
+	"ariaTypedefs.h"
+	"ArBasePacket.h"
+	"ArPTZ.h"
+	"ariaUtil.h"
+	"ArCommands.h"
+	"ArSerialConnection.h"
+
+1516895104 /usr/local/Aria/include/ArMode.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	<string>
+	<list>
+
+1516895104 /usr/local/Aria/include/ArModes.h
+	"ariaTypedefs.h"
+	"ArMode.h"
+	"ArActionGroups.h"
+	"ArGripper.h"
+	"ArTcpConnection.h"
+	"ArSerialConnection.h"
+	"ArPTZ.h"
+	"ArTCMCompassRobot.h"
+	"ArRobotConfigPacketReader.h"
+
+1516895105 /usr/local/Aria/include/ArTCMCompassRobot.h
+	"ariaUtil.h"
+	"ArCommands.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+	"ArTCM2.h"
+
+1516895105 /usr/local/Aria/include/ArTCM2.h
+	"ariaUtil.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArNetServer.h
+	"ariaTypedefs.h"
+	"ArSocket.h"
+	"ArFunctor.h"
+	"ariaUtil.h"
+	<list>
+
+1516895105 /usr/local/Aria/include/ArSignalHandler.h
+	<list>
+	<signal.h>
+	"ariaTypedefs.h"
+	"ArASyncTask.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArAnalogGyro.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArMapInterface.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArMapObject.h"
+	"ArMapUtils.h"
+	"ArArgumentBuilder.h"
+	"ArFunctor.h"
+	"ArHasFileName.h"
+	"ArMutex.h"
+	<vector>
+	<set>
+
+1516895104 /usr/local/Aria/include/ArMapObject.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArMapUtils.h
+	<algorithm>
+	<functional>
+	<map>
+	<set>
+	<string>
+	<vector>
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArMap.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArMapComponents.h"
+	"ArMapInterface.h"
+	"ArMapUtils.h"
+	"ArFunctor.h"
+	"ArArgumentBuilder.h"
+	"ArMutex.h"
+	"ArGPSCoords.h"
+	<vector>
+
+1516895104 /usr/local/Aria/include/ArMapComponents.h
+	"ArMapInterface.h"
+
+1516895104 /usr/local/Aria/include/ArGPSCoords.h
+	"ariaTypedefs.h"
+
+1516895104 /usr/local/Aria/include/ArBumpers.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+
+1516895104 /usr/local/Aria/include/ArIRs.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+
+1516895104 /usr/local/Aria/include/ArForbiddenRangeDevice.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArMapInterface.h"
+
+1516895105 /usr/local/Aria/include/ArVersalogicIO.h
+	"ariaTypedefs.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArMTXIO.h
+	"ariaTypedefs.h"
+	"ArRobot.h"
+
+1516895104 /usr/local/Aria/include/ArActionGotoStraight.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArDataLogger.h
+	"ariaUtil.h"
+	"ArMutex.h"
+	"ArFunctor.h"
+	<vector>
+	<map>
+	<iostream>
+	<sstream>
+
+1516895105 /usr/local/Aria/include/ArRobotJoyHandler.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+
+1516895104 /usr/local/Aria/include/ArRatioInputKeydrive.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArFunctor.h"
+	"ArActionRatioInput.h"
+
+1516895104 /usr/local/Aria/include/ArRatioInputJoydrive.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArActionRatioInput.h"
+	"ArJoyHandler.h"
+
+1516895104 /usr/local/Aria/include/ArRatioInputRobotJoydrive.h
+	"ariaTypedefs.h"
+	"ArActionRatioInput.h"
+
+1516895104 /usr/local/Aria/include/ArActionMovementParameters.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArMapObject.h"
+
+1516895105 /usr/local/Aria/include/ArSoundPlayer.h
+	"ArFunctor.h"
+
+1516895105 /usr/local/Aria/include/ArSoundsQueue.h
+	"ariaTypedefs.h"
+	"ArASyncTask.h"
+	"ArCondition.h"
+	"ArFunctor.h"
+	"ArSpeech.h"
+	<list>
+	<string>
+	<set>
+
+1516895105 /usr/local/Aria/include/ArSpeech.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ArConfig.h"
+	<list>
+	<string>
+
+1516895104 /usr/local/Aria/include/ArCameraCollection.h
+	<list>
+	<map>
+	<string>
+	"ArConfigArg.h"
+	"ArFunctor.h"
+	"ArMutex.h"
+
+1516895104 /usr/local/Aria/include/ArCameraCommands.h
+	"ariaUtil.h"
+
+1516895105 /usr/local/Aria/include/ArSonarAutoDisabler.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArActionDriveDistance.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArAction.h"
+
+1516895104 /usr/local/Aria/include/ArLaserReflectorDevice.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctor.h"
+
+1516895105 /usr/local/Aria/include/ArRobotConfig.h
+	"ArFunctor.h"
+
+1516895105 /usr/local/Aria/include/ArTCMCompassDirect.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArDeviceConnection.h"
+	"ArTCM2.h"
+	"ArNMEAParser.h"
+
+1516895104 /usr/local/Aria/include/ArNMEAParser.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ariaUtil.h"
+	"ArDeviceConnection.h"
+	<string>
+	<vector>
+
+1516895104 /usr/local/Aria/include/ArLaserFilter.h
+	"ArLaser.h"
+	"ArFunctor.h"
+
+1516895105 /usr/local/Aria/include/ArUrg.h
+	"ariaTypedefs.h"
+	"ArLaser.h"
+	"ArDeviceConnection.h"
+
+1516895104 /usr/local/Aria/include/ArGPS.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ariaUtil.h"
+	"ArMutex.h"
+	"ArNMEAParser.h"
+	"ArGPSCoords.h"
+	<math.h>
+	<string>
+	<vector>
+
+1516895105 /usr/local/Aria/include/ArTrimbleGPS.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ariaUtil.h"
+	"ArGPS.h"
+	"ArDeviceConnection.h"
+	"ArMutex.h"
+	<deque>
+
+1516895104 /usr/local/Aria/include/ArNovatelGPS.h
+	"ariaTypedefs.h"
+	"ArFunctor.h"
+	"ariaUtil.h"
+	"ArGPS.h"
+
+1516895105 /usr/local/Aria/include/ArSonarConnector.h
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ariaUtil.h"
+	"ArRobotConnector.h"
+
+1516895104 /usr/local/Aria/include/ArBatteryConnector.h
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ariaUtil.h"
+	"ArRobotConnector.h"
+
+1516895104 /usr/local/Aria/include/ArLCDConnector.h
+	"ariaTypedefs.h"
+	"ArSerialConnection.h"
+	"ArTcpConnection.h"
+	"ArArgumentBuilder.h"
+	"ArArgumentParser.h"
+	"ariaUtil.h"
+	"ArRobotConnector.h"
+
+1516895105 /usr/local/Aria/include/ArSonarMTX.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+	"ArRobotPacket.h"
+
+1516895104 /usr/local/Aria/include/ArBatteryMTX.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+	"ArRobotPacket.h"
+	"ArRobotConnector.h"
+
+1516895104 /usr/local/Aria/include/ArLCDMTX.h
+	"ariaTypedefs.h"
+	"ArRangeDevice.h"
+	"ArFunctor.h"
+	"ArRobot.h"
+	"ArRobotPacket.h"
+	"ArRobotConnector.h"
+
+1516895105 /usr/local/Aria/include/ArSimulatedLaser.h
+	"ariaTypedefs.h"
+	"ArLaser.h"
+
+1516895104 /usr/local/Aria/include/ArExitErrorSource.h
+
+1516895104 /usr/local/Aria/include/ArActionLimiterRot.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+
+1516895105 /usr/local/Aria/include/ArRobotBatteryPacketReader.h
+	"ariaTypedefs.h"
+	"ariaUtil.h"
+	"ArFunctor.h"
+
+1516895104 /usr/local/Aria/include/ArLMS1XX.h
+	"ariaTypedefs.h"
+	"ArRobotPacket.h"
+	"ArLaser.h"
+	"ArFunctor.h"
+
+1516895105 /usr/local/Aria/include/ArUrg_2_0.h
+	"ariaTypedefs.h"
+	"ArLaser.h"
+	"ArDeviceConnection.h"
+
+1516895104 /usr/local/Aria/include/ArActionMovementParametersDebugging.h
+	"ariaTypedefs.h"
+	"ArAction.h"
+	"ArMapObject.h"
+
+1516895106 /usr/local/Aria/include/ArZippable.h
+	"ariaTypedefs.h"
+
+1516895105 /usr/local/Aria/include/ArS3Series.h
+	"ariaTypedefs.h"
+	"ariaOSDef.h"
+	"ArRobotPacket.h"
+	"ArLaser.h"
+	"ArFunctor.h"
+
+1516895105 /usr/local/Aria/include/ArSZSeries.h
+	"ariaTypedefs.h"
+	"ariaOSDef.h"
+	"ArRobotPacket.h"
+	"ArLaser.h"
+	"ArFunctor.h"
+
+1549410187 source:/home/pbundac/Desktop/CodeBlocks/ARIA/store.cpp
+

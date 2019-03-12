@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1551826688 source:/home/pbundac/Desktop/CodeBlocks/Writer/Writer/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<fcntl.h>
+	<sys/shm.h>
+	<sys/mman.h>
+
